@@ -18,6 +18,7 @@ https://qiita.com/4geru/items/42f1bf2666bdbad9fbe7
 - now.json・・・PaaSのnowを使う際のalias設定
 - pay.js・・・LINE pay処理
 - server.js・・・Bot　API
+- .env ・・・環境変数
 
 ## LINE 使用機能
 
