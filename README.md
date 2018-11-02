@@ -9,7 +9,17 @@ LINE Payを使ってみよう
 https://qiita.com/4geru/items/42f1bf2666bdbad9fbe7
 
 
-## LINE 側仕様機能
+## 主要ファイル
+- README.md
+- messages
+    - productlist.js・・・商品一覧のFlexメッセージテンプレート
+    - top.js・・・トップのFlexメッセージテンプレート
+
+- now.json・・・PaaSのnowを使う際のalias設定
+- pay.js・・・LINE pay処理
+- server.js・・・Bot　API
+
+## LINE 使用機能
 
 - messaging API
     - Flexメッセージ
