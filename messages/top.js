@@ -50,7 +50,24 @@ module.exports = {
                       "align": "center"
                     }     
                   ]
+                },
+                "footer": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "style": "link",
+                      "action": {
+                        "type": "uri",
+                        "label": "プロ生ちゃんHP",
+                        "uri": "line://app/1619146895-WmAnjgA4"
+                      }
+                    }
+                  ]
                 }
+
         },
         "quickReply": {
           "items": [
@@ -59,9 +76,6 @@ module.exports = {
               },
               {
                   "type": "action", "action": { "type": "message", "label": "商品一覧", "text": "商品一覧" }
-              },
-              {
-                  "type": "action", "action": { "type": "message", "label": "プロ生ちゃんHP", "text": "line://app/1619146895-WmAnjgA4" }
               }
             ]
           }
